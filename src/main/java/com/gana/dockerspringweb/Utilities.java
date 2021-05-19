@@ -51,7 +51,7 @@ public class Utilities {
 
         List<String> resultList = names.stream().filter(t -> t.equalsIgnoreCase("rajaaaaaaa")).collect(Collectors.toList());
 
-        System.out.println("result List" + resultList);
+        System.out.println("result List :" + resultList);
         TestABImpl impl= new TestABImpl();
 
         impl.specialoffer(10);
